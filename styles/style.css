@@ -2,33 +2,37 @@
   box-sizing:border-box;
 }
 
-html {
-  height:100vh;
+*html {
+  height:100vh; color:black
 }
 
 body {
   height:100vh;
-  font-family: open sans;
+  font-family: helvetica font-family;
   display:flex;
   justify-content:center;
   align-items:center;
-  color:#10214e;
+  color:#000000;
 }
 
 article {
-  width:50vw;
-  max-width: 25em;
-  min-width:20em;
+  width: 80vw;
+  max-width: 40em;
+  min-width: 40em;
   display:flex;
   flex-direction:column;
   align-items:center;
   justify-content:flex-end;
-  background: rgb(0,239,255);
-  background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4e54c8 100%);
+  background: rgb(220, 163, 234);
+  background: linear-gradient(0deg, rgba(220, 163, 234) 40%, rgba(220, 163, 234)#4e54c8 100%);
   box-shadow:0 0 20px 20px rgba(0,0,0,.1);
   border-radius:1rem;
   position: relative;
   transition:.25s;
+}
+
+article ul {
+  padding-right: 15em;
 }
 
 header {
@@ -42,8 +46,9 @@ header {
 
 h1 {
   margin:2rem 0 1rem;
-  color: rgba(0,239,255,1);
+  color: rgb(0, 0, 0);
 }
+ 
 
 button {
   border:none;
@@ -53,22 +58,22 @@ button {
   width:2.5rem;
   height:2.5rem;
   transform: scale(.8);
-  background: rgba(0,239,255,1);
+  background: rgb(0, 0, 0);
   border-radius:50%;
   padding:.25rem;
   transition:.25s;
 }
 button:focus {
   outline:none;
-  background:#202592;
+  background:#000000;
 }
 button:focus svg {
-  stroke: rgba(0,239,255,1);
+  stroke: rgb(0, 0, 0);
 }
 
 svg {
-  stroke: #4e54c8;
-  position: absolute;
+  stroke: #000000;
+  position: left;
   top:calc(1.25rem - 12px);
   left:calc(1.25rem - 12px);
   transition-delay: .25s;
@@ -81,7 +86,7 @@ button svg:nth-of-type(2) {
 img {
   width:10em;
   border-radius:10em;
-  border:5px solid #fff;
+  border:5px solid rgb(68, 57, 57);
   box-shadow:0 0 2px 2px rgba(0,0,0,.2);
   position:relative;
   top:2rem;
@@ -90,7 +95,7 @@ img {
 
 dl {
   width:100%;
-  background: rgb(255,255,255);
+  background: rgb(220, 163, 234);
   
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -103,11 +108,11 @@ dl {
   padding:5rem 0 3rem;
   margin-top: -3rem;
   margin-bottom: 0;
-  text-align: center;
+  text-align: left;
 }
 
 dt{
-  font-weight: bold;
+  font-weight: helvetica;
   border-top: 1px solid rgba(0,0,0,0.3);
   padding-top: .25rem;
   margin-top: .25rem;
@@ -132,11 +137,12 @@ p {
 article > p {
   padding:3rem 2rem;
   margin-top: 0;
-  background:rgba(255,255,255, 0.5);
-  text-align:center;
+  background: rgb(220, 163, 234);
+  text-align:left;
   border-radius: 0 0 1rem 1rem;
   width:100%;
 }
+
 
 /* expand content */
 body.expand {
