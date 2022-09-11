@@ -1,1 +1,1 @@
-De link naar mijn visitekaartje: https://danique.student.fdnd@hva.nl
+De link naar mijn visitekaartje: http://danique.student.fdnd.nl/
