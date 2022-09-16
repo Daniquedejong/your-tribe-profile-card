@@ -1,0 +1,43 @@
+* {
+  box-sizing:border-box;
+}
+
+*html {
+  height:100vh; color:black
+}
+
+body {
+  height:100vh;
+  font-family: helvetica font-family;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:#000000;
+  background-image:url(../assets/Postzegel\ boek.jpg) ;
+}
+
+img {
+margin-top: -12em;
+margin-right: 1em;
+}
+
+article {
+  background-image: url(../assets/Perkament.jpg);
+  height: 25em;
+  width: 30em;
+  box-shadow: 0px 5px 40px 20px rgb(154, 126, 126);
+  padding-left: 3em;
+  padding-top: 2em;
+}
+
+p {
+  padding-top: 5em;
+}
+
+img {
+  float:right
+}
+
+img {
+  margin-top: -6em;
+}

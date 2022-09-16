@@ -7,12 +7,13 @@
 }
 
 body {
-  height:100vh;
-  font-family: helvetica font-family;
+  height:50vh;
+  font-family: open sans;
   display:flex;
   justify-content:center;
   align-items:center;
   color:#000000;
+  background-color: indianred;
 }
 
 article {
